@@ -802,6 +802,7 @@ footer p { font-size: 0.8rem; color: var(--cream-dim); opacity: 0.6; margin: 0; 
   .online-inner { grid-template-columns: 1fr; gap: 48px; }
   .online-deco { display: none; }
   .testimonials-grid { grid-template-columns: 1fr; }
+  .milonga-inner { grid-template-columns: 1fr; min-height: 0; }
   .milonga-img-wrap { height: 320px; }
   .milonga-text { padding: 56px 40px; }
   .amanda-img-wrap { max-width: 480px; }
@@ -815,6 +816,7 @@ footer p { font-size: 0.8rem; color: var(--cream-dim); opacity: 0.6; margin: 0; 
   .card-hover-img { height: 200px; }
   .card-hover-img img { height: 200px; }
   #about, #experiences, #amanda, #contact { padding: 80px 0; }
+  .milonga-img-wrap { height: 260px; }
   .milonga-text { padding: 40px 20px; }
   .contact-card { padding: 22px 20px; gap: 20px; }
   .deco-quote { padding: 28px; }
