@@ -822,3 +822,10 @@ footer p { font-size: 0.8rem; color: var(--cream-dim); opacity: 0.6; margin: 0; 
   .deco-quote { padding: 28px; }
   blockquote { font-size: 1.3rem; }
 }
+/* prueba celular */
+@media (max-width: 900px) {
+  .milonga-inner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
