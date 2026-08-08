@@ -546,13 +546,15 @@ blockquote {
   margin-top: 24px;
   font-weight: 500;
 }
-.amanda-img-wrap { position: relative; }
+.amanda-img-wrap { position: relative; overflow: hidden; }
 .amanda-img-wrap img {
   width: 100%;
   aspect-ratio: 4/5;
   object-fit: cover;
   object-position: center top;
   border: 1px solid rgba(201,168,76,0.15);
+  transform: scale(1.12);
+  transform-origin: center 30%;
 }
 .amanda-img-wrap::before {
   content: '';
@@ -562,6 +564,7 @@ blockquote {
   opacity: 0.3;
   z-index: -1;
 }
+.amanda-img-mobile { display: none; }
 
 /* ══════════════
    CONTACT
@@ -810,6 +813,8 @@ footer p { font-size: 0.8rem; color: var(--cream-dim); opacity: 0.6; margin: 0; 
   .milonga-text { padding: 56px 40px; }
   .amanda-img-wrap { max-width: 480px; }
   .amanda-img-wrap::before { display: none; }
+  .amanda-img-desktop { display: none; }
+  .amanda-img-mobile { display: block; margin: 0 0 32px; }
 }
 
 @media (max-width: 580px) {
