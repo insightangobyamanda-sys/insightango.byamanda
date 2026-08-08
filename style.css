@@ -496,6 +496,7 @@ blockquote {
   background: rgba(13,11,9,0.7);
   padding: 6px 12px;
 }
+.milonga-img-mobile { display: none; }
 .milonga-text {
   padding: 80px 72px;
   display: flex;
@@ -804,6 +805,8 @@ footer p { font-size: 0.8rem; color: var(--cream-dim); opacity: 0.6; margin: 0; 
   .testimonials-grid { grid-template-columns: 1fr; }
   .milonga-inner { grid-template-columns: 1fr; min-height: 0; }
   .milonga-img-wrap { height: 320px; }
+  .milonga-img-desktop { display: none; }
+  .milonga-img-mobile { display: block; margin-bottom: 28px; }
   .milonga-text { padding: 56px 40px; }
   .amanda-img-wrap { max-width: 480px; }
   .amanda-img-wrap::before { display: none; }
